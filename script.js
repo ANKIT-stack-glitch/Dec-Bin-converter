@@ -10,3 +10,19 @@ const decimalToBinaryRecursive = (input, remainders = []) => {
   remainders.push(input % 2);
   return decimalToBinaryRecursive(Math.floor(input / 2), remainders);
 };
+
+const checkUserInput = () => {
+  if (
+    !numberInput.value ||
+    isNaN(parseInt(numberInput.value)) ||
+    parseInt(numberInput.value) < 0
+  ) {
+    alert("Please provide a decimal number greater than or equal to 0");
+    return;
+  }
+
+  const binaryResult = decimalToBinaryRecursive(parseInt(numberInput.value));
+  result.innerText = binaryResult;
+  numberInput.value = "";
+};
+

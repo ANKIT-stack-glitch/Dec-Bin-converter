@@ -6,7 +6,8 @@ A simple and interactive web app that converts decimal numbers to binary using *
 
 ## 🎥 Live Demo
 
-[🔗 View Live Demo](https://ankit-stack-glitch.github.io/decimal-to-binary-recursive/)
+[🔗 Click here to view the live demo](https://ankit-stack-glitch.github.io/Dec-Bin-converter/)
+
 
 ---
 

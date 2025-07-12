@@ -1,6 +1,6 @@
 # 🔢 Decimal to Binary Converter – Recursive Edition
 
-A simple and interactive web app that converts decimal numbers to binary using **JavaScript recursion**. It also visually demonstrates the **call stack** during the recursive process.
+A simple and interactive web app that converts decimal numbers to binary using **JavaScript recursion**. 
 
 ---
 
